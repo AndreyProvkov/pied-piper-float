@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding-top: 89px;
+    background-color: #EEEEEE;
+    font-family: 'Roboto', sans-serif;
+}
+.section {
+    max-width: 1219px;
+    padding: 48px 55px 92px;
+    margin: 0 auto;
+}
+.header {
+    background-color: #007765;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.header > .section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: table;
+}
+.logo, .nav {
+    display: table-cell;
+    vertical-align: middle;
+}
+.nav {
+    text-align: right;
+}
+.nav-link {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+}
+.nav-link:not(:last-child):after {
+    display: inline-block;
+    content: "";
+    width: 2px;
+    height: 25px;
+    background-color: #FFFFFF;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.to-scroll {
+     position: relative;
+     top: -90px;
+}
+.jumbotron {
+    background-color: black;
+    background-image: url("../img/jumbotron.jpg");
+    background-size: cover;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.jumbotron-title {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.main-title {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+p {
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+.hero {
+    background: #42a9ed url("../img/hero.jpg");
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.hero-text {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.introduction {
+    background: #FFFFFF;
+}
+.ppc-logo {
+    float: left;
+    padding-right: 48px;
+}
+.main-title {
+    margin-bottom: 32px;
+}
+.card {
+    display: inline-block;
+    width: 350px;
+    height: 283px;
+    text-align:center;
+    margin: 5px;
+    vertical-align: middle;
+    padding-top: 24px;
+}
+.card-image {
+    margin-bottom: 12px;
+}
+.card-name {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+.card-post {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.footer {
+    background: #333333;
+}
+.copyrights {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 64px;
+}
+
+
+
